@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/devchallenges-storybook/static/css/main.6cfb2f12.css",
+    "main.js": "/devchallenges-storybook/static/js/main.3d80eb81.js",
+    "static/js/787.43fed181.chunk.js": "/devchallenges-storybook/static/js/787.43fed181.chunk.js",
+    "index.html": "/devchallenges-storybook/index.html",
+    "static/media/cart-plus.svg": "/devchallenges-storybook/static/media/cart-plus.08c1ba5637705fad0a54243409d0dbd2.svg",
+    "static/media/phone.svg": "/devchallenges-storybook/static/media/phone.df56ccaaf72a43f958eaa814360005df.svg",
+    "static/media/lock.svg": "/devchallenges-storybook/static/media/lock.306694fb562ddca15ab941d546eb67a9.svg",
+    "main.6cfb2f12.css.map": "/devchallenges-storybook/static/css/main.6cfb2f12.css.map",
+    "main.3d80eb81.js.map": "/devchallenges-storybook/static/js/main.3d80eb81.js.map",
+    "787.43fed181.chunk.js.map": "/devchallenges-storybook/static/js/787.43fed181.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cfb2f12.css",
+    "static/js/main.3d80eb81.js"
+  ]
+}
