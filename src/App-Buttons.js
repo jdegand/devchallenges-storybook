@@ -1,9 +1,7 @@
 import './App.css';
-import { useState } from 'react';
 import { Button } from './stories/Button';
 import cart from './stories/assets/cart-plus.svg';
 import { Sidebar } from './stories/Sidebar';
-import { Input } from './stories/Input';
 
 const image = {
   src: cart,
@@ -63,11 +61,11 @@ function App() {
         </div>
         <div className="flex-evenly">
           <div>
-          <h3>&lt;Button&nbsp;startIcon="local_grocery_store"&nbsp;/&gt;</h3>
+            <h3>&lt;Button&nbsp;startIcon="local_grocery_store"&nbsp;/&gt;</h3>
             <Button background="primary" color="#fff" startIcon={image.src} alt={image.alt} />
           </div>
           <div>
-          <h3>&lt;Button&nbsp;endIcon="local_grocery_store"&nbsp;/&gt;</h3>
+            <h3>&lt;Button&nbsp;endIcon="local_grocery_store"&nbsp;/&gt;</h3>
             <Button background="primary" color="#fff" endIcon={image.src} alt={image.alt} />
           </div>
         </div>
@@ -87,19 +85,19 @@ function App() {
         </div>
         <div className="flex-evenly">
           <div>
-          <h3>&lt;Button&nbsp;color="default"&nbsp;/&gt;</h3>
+            <h3>&lt;Button&nbsp;color="default"&nbsp;/&gt;</h3>
             <Button />
           </div>
           <div>
-          <h3>&lt;Button&nbsp;color="primary"&nbsp;/&gt;</h3>
+            <h3>&lt;Button&nbsp;color="primary"&nbsp;/&gt;</h3>
             <Button background="primary" color="#fff" />
           </div>
           <div>
-          <h3>&lt;Button&nbsp;color="secondary"&nbsp;/&gt;</h3>
+            <h3>&lt;Button&nbsp;color="secondary"&nbsp;/&gt;</h3>
             <Button background="secondary" color="#fff" />
           </div>
           <div>
-          <h3>&lt;Button&nbsp;color="danger"&nbsp;/&gt;</h3>
+            <h3>&lt;Button&nbsp;color="danger"&nbsp;/&gt;</h3>
             <Button background="danger" color="#fff" />
           </div>
         </div>

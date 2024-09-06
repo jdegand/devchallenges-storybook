@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.flex-evenly > div {
+.flex-evenly>div {
   margin-inline-end: 20px;
 }
 
@@ -22,8 +22,8 @@ section {
   margin-inline-start: 25px;
 }
 
-@media(min-width: 700px){
-  
+@media(min-width: 700px) {
+
   main {
     margin-left: 21vw;
   }
