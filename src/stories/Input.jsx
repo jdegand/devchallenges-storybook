@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StyledInput } from './Input.styles';
-import { StyledTextArea } from './Input.styles';
+import { StyledInput, StyledTextArea } from './Input.styles';
 
 export const Input = ({ disabled, error, helperText, label, multiline, row, startIcon, value, alt, ...props }) => {
 
