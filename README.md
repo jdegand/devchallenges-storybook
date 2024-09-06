@@ -34,9 +34,9 @@
 
 ## Overview
 
-![](devchallenges-storybook-buttons.png)
+![Buttons Challenge Result](screenshots/devchallenges-storybook-buttons.png)
 
-![](devchallenges-storybook-inputs.png) 
+![Inputs Challenge Result](screenshots/devchallenges-storybook-inputs.png)
 
 ### Built With
 
@@ -49,48 +49,29 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.  The [challenge](https://legacy.devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp) was to build an application to complete the given user stories.
 
-## Thoughts 
+## Thoughts
 
-- Storybook requires a lot more prep than you would think.  Having so many properties, I thought styled components offered the best solution.
-- Adding classnames / using classnames package - would have been an alternative solution.  
-
-- Wanted to do both challenges in one repo so I didn't have to re-download cra and dependencies again. 
-
-- Should I prevent startIcon and endIcon from both being set ?
-
-- Offering multiple image choices seems like a headache - having to import them etc - vs using a image from a cdn where you would just need a url. 
-
-- Adding "or null" to the value prop allows you to type into the inputs - without setting up state and controlling the value prop and adding onChange handler. This causes a warning in the console.  Using an empty string prevents typing in the input.  
-
-- Always forget to use outline when targeting focus.
-
-- Best to use background-image to set icon inside an input field.  I used absolute positioning for the start icon and background image for the end icon.  Can't use background image for both.  I would have to duplicate input and use styled(StyledInput) to overwrite the background image properties.  Then use ternary to display either one imported into Input.
-
-- With background-image, you don't have to worry that the icon will not be in the correct spot when scaling the input's height.  
-
-- autoFocus doesn't always work - having multiple autoFocus-ed buttons  - usually only the last one button had focus
-
-- Adding a ref didn't help because app is a functional component - ForwardRef is possible solution.
-
+- Storybook requires a lot more prep than you would think. Having so many properties, I thought Styled Components offered the best solution.
+- Using [classnames](https://github.com/JedWatson/classnames) package would have been an alternative solution.
+- I wanted to do both challenges in one repo so I didn't have to re-download Create React App and dependencies again.
+- Should I prevent `startIcon` and `endIcon` from both being set at the same time?
+- Offering multiple image choices seems like a headache - having to import them, etc. vs. using an image from a CDN where you would just need a URL.
+- Adding "or null" to the value prop allows you to type into the inputs - without setting up state, controlling the value prop, and adding an `onChange` handler. This causes a warning in the console.  Using an empty string prevents typing in the input.
+- Best to use `outline` when styling `focus` events.
+- Best to use `background-image` to set icon inside an input field.  I used absolute positioning for the start icon and background image for the end icon.  Can't use background image for both.  I would have to duplicate input and use `styled(StyledInput)` to overwrite the background image properties. Then use ternary to display either one imported into `Input.jsx`.
+- With `background-image`, you don't have to worry that the icon will not be in the correct spot when scaling the input's height.
+- `autoFocus` doesn't always work. With multiple autoFocus-ed buttons, usually only the last button has focus.
+- Adding a `ref` didn't help because the app is a functional component. `ForwardRef` is a possible solution.
 - Adding more cases to my background switch is probably an easier solution to autofocus difficulties.
-- Possibly didn't need separate switch for hover-background and hover-color - don't want to totally refactor though 
-
-- Had some issues with defaultProps not be applied -> need to remember to pass props 
-
-- Would have been easier to set helperText to be an empty string to start with
-
-- Changing active on sidepanel need to investigate best approach
-- Could use React Router to switch between buttons and inputs pages
-- More involved - add the link component to the sidepanel component
-- Just added function to sidepanel and any click flips from buttons to inputs
-
-- could add another border vs using autoFocus to ensure blue border stays permanently on last input on top row.
-
-- issues with inputs - no change handler warning, value should not be null
-
-- didn't make app.js mobile reponsive
-
-- There is a new Storybook competitor in [Ladle](https://www.ladle.dev/docs/). 
+- Possibly didn't need a separate switch statement for `hover-background` and `hover-color`.
+- There are problems with the switch statements, and this is an area where refactoring may be needed.
+- I had some issues with `defaultProps` not being applied. You always need to remember to pass props.
+- It would have been easier to set `helperText`'s default value to be an empty string.
+- I added a function to the sidepanel that is called on any click to switch the display between the button and input components. I did this to avoid adding React Router.
+- You could add another border vs. using autoFocus to ensure the blue border stays permanently on last input on the top row.
+- There is a change handler warning and the value is null in the inputs challenge.
+- I didn't make the app mobile responsive.  Also, the full-width input does not take into the sidepanel's width, so there is overflow.
+- There is a new Storybook competitor in [Ladle](https://www.ladle.dev/docs/).
 
 ## Useful Resources
 
