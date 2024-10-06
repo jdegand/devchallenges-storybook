@@ -14,11 +14,11 @@
       Live Storybook
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+    <a href="https://web.archive.org/web/20240417024221/https://legacy.devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
       Button Challenge
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
+    <a href="https://web.archive.org/web/20240526063936/https://legacy.devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp">
       Input Challenge
     </a>
   </h3>
@@ -36,7 +36,11 @@
 
 ![Buttons Challenge Result](screenshots/devchallenges-storybook-buttons.png)
 
+***
+
 ![Inputs Challenge Result](screenshots/devchallenges-storybook-inputs.png)
+
+***
 
 ### Built With
 
@@ -47,7 +51,7 @@
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.  The [challenge](https://legacy.devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://web.archive.org/web/20240417024221/https://legacy.devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.  The [challenge](https://web.archive.org/web/20240526063936/https://legacy.devchallenges.io/challenges/TSqutYM4c5WtluM7QzGp) was to build an application to complete the given user stories. **Note**: The design documents may be incomplete, as you need to find an archived version of the challenges as all `legacy` challenges have had their documentation removed from DevChallenges.
 
 ## Thoughts
 
